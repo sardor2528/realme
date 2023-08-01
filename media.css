@@ -63,6 +63,11 @@
         display: block;
         margin-top: 50px;
     }
+
+    .navbar {
+        height: 10px;
+        padding-top: 5%;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -108,5 +113,21 @@
 
     .cards {
         gap: 60px;
+    }
+
+    .navbar {
+        height: 5px;
+        padding-top: 12%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .big-card__right2 {
+        width: 48%;
+        height: 250px;
+    }
+
+    footer p {
+        margin-top: 15px;
     }
 }
